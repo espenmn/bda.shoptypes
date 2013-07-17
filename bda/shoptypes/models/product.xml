@@ -1,0 +1,23 @@
+<model xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="image" type="plone.namedfile.field.NamedBlobImage">
+      <description>Shows in the cart</description>
+      <required>False</required>
+      <title>Productimage</title>
+    </field>
+    <field name="visningsbilde" type="plone.namedfile.field.NamedBlobImage">
+      <description/>
+      <title>Big image</title>
+    </field>
+    <field name="body" type="plone.app.textfield.RichText">
+      <description/>
+      <required>False</required>
+      <title>body</title>
+    </field>
+    <field name="teknisk_informasjon" type="plone.app.textfield.RichText">
+      <description/>
+      <required>False</required>
+      <title>Technical Information</title>
+    </field>
+  </schema>
+</model>
