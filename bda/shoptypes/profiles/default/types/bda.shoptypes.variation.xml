@@ -18,10 +18,15 @@
   <property name="schema">bda.shoptypes.variation.IVariation</property>
   <property name="klass">bda.shoptypes.variation.Variation</property>
 
-  <property name="behaviors">
-     <element value="plone.app.content.interfaces.INameFromTitle" />
-     <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
-   </property>
+ <property name="behaviors">
+   <element value="plone.app.content.interfaces.INameFromTitle"/>
+   <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
+   <element value="bda.plone.shop.dx.IBuyableBehavior"/>
+   <element value="plone.app.dexterity.behaviors.metadata.ICategorization"/>
+   <element
+      value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation"/>
+   <element value="bda.plone.shop.dx.IStockBehavior"/>
+  </property>
 
   <!-- View information -->
   <property name="link_target"></property>
