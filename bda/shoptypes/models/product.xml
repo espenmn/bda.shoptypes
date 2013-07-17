@@ -7,11 +7,12 @@
     </field>
     <field name="visningsbilde" type="plone.namedfile.field.NamedBlobImage">
       <description/>
+      <required>True</required>
       <title>Big image</title>
     </field>
     <field name="body" type="plone.app.textfield.RichText">
       <description/>
-      <required>False</required>
+      <required>True</required>
       <title>body</title>
     </field>
     <field name="teknisk_informasjon" type="plone.app.textfield.RichText">

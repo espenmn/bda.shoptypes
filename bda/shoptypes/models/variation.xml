@@ -2,11 +2,12 @@
   <schema>
     <field name="image" type="plone.namedfile.field.NamedBlobImage">
       <description>Shows in the cart</description>
-      <required>False</required>
+      <required>True</required>
       <title>Product Image</title>
     </field>
     <field name="visningsbilde" type="plone.namedfile.field.NamedBlobImage">
       <description/>
+      <required>True</required>
       <title>Big Image</title>
     </field>
     <field name="color" type="zope.schema.TextLine">
