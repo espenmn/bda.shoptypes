@@ -1,4 +1,3 @@
-
 =========================
 bda.shoptypes
 =========================
@@ -34,7 +33,9 @@ Variation (bda.shoptypes.variation)
 Can (only) be added inside a Productgroup folder. A "Variation" contains two Image fields and one "Colors" fields.
 "Variation" has "Buyable" and "Stock" behaviour which is required for beeing addable to the cart.
 
-
+Indexes
+-------
+This product adds two indexes (color and variation) which are used with the bda.plone.shopviews. Without these indexes, those views will error.
 
 Installation
 ============
