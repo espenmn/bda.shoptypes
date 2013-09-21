@@ -5,7 +5,7 @@
   <indexed_attr value="color"/>
  </index>
 
- <index name="color" meta_type="FieldIndex">
+ <index name="variation" meta_type="FieldIndex">
   <indexed_attr value="variation"/>
  </index>
 
